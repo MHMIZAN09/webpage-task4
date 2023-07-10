@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 65px;
+  height: 65px;
+}
+.title {
+  display: flex;
+  padding: 10px;
+  margin-left: 20px;
+  gap: 30px;
+  align-items: center;
+}
+.title-bar {
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+  text-align: center;
+  gap: 60px;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
+  list-style: none;
+}
+.title-bar a {
+  text-decoration: none;
+}
+.title-bar button {
+  font-size: 20px;
+  padding: 12px 20px;
+  border: 0;
+  border: 2px solid blueviolet;
+  border-radius: 35px;
+  background-color: #f65129;
+  color: #ffffff;
+}
+.title-bar button:hover {
+  background-color: #0dcaf0;
+}
+.nav-title h1 {
+  font-size: 32px;
+  color: #5d52ba;
+}
+.nav-title h5 {
+  font-size: 12px;
+  color: #f65129;
+}
+.container-section {
+  width: 100%;
+  height: 100vh;
+  background: url(images/close-up-young-business-team-working.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+.search-bar {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #7f73e3;
+  margin-right: 10px;
+  text-align: left;
+}
+.section-text button {
+  font-size: 16px;
+  padding: 15px 20px;
+  border: 2px solid #5d52ba;
+  border-radius: 30px;
+}
+.section-text h4 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 5px;
+}
+.section-text h1 {
+  font-size: 62px;
+  color: white;
+  margin-bottom: 5px;
+}
+input[type="text"] {
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-right: 20px;
+  border: 0;
+}
+.search-bar h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+.btn {
+  width: 98%;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 0px;
+  background-color: #5d52ba;
+  color: white;
+}
+.btn:hover {
+  background-color: #0dcaf0;
+}
+.btn-class {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.btn-class h3 {
+  color: white;
+  font-size: 16px;
+}
+.btn-class button {
+  padding: 8px;
+  margin-left: 15px;
+  border-radius: 30px;
+  border: 0;
+}
+.cata-title {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.categories {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.style-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #0dcaf0;
+  border-radius: 200px;
+  margin-top: 20px;
+  margin-right: 40px;
+  font-size: 30px;
+}
+.img {
+  width: 300px;
+  height: 530px;
+  object-fit: cover;
+  border-radius: 14px 0px 0px 14px;
+}
+.img2 {
+  width: 300px;
+  height: 530px;
+  object-fit: cover;
+  border-radius: 0px 14px 14px 0px;
+}
+.img-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  gap: 20px;
+}
+.exta-border {
+  width: 500px;
+  height: 376px;
+  padding: 80px 60px;
+  background-color: #0dcaf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exta-border h1 {
+  font-size: 48px;
+  color: white;
+  text-align: left;
+}
+.exta-border p {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+}
+.btn1{
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 20px;
+    margin-right: 20px;
+    border: 2px solid  white;
+   background-color: #0dcaf0; 
+   color: white;
+   cursor: pointer;
+}
+.btn2{
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 15px 20px;
+    border: 0;
+   background-color: #0dcaf0; 
+   color: white;
+   cursor: pointer;
+}
+.btn1:hover{
+    background-color: white;
+    color: #0dcaf0;
+}
+.btn2:hover{
+    border-bottom: 2px solid white;
+}
